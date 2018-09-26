@@ -7,7 +7,7 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class AppTest
     extends TestCase
 {
     /**
@@ -33,6 +33,8 @@ public class AppTest
      */
     public void testApp()
     {
+        System.out.println( "Start to connect database==========>" );
+        System.out.println( "Finish to connect database==========>" );
         assertTrue( true );
     }
 }
